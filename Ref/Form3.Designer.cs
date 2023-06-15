@@ -31,49 +31,50 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.prodiTIDataSet1 = new Ref.ProdiTIDataSet1();
             this.nilaiBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.prodiTIDataSet1 = new Ref.ProdiTIDataSet1();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.nilaiBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.nilaiBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.nilaiBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.nilaiBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.nilaiTableAdapter = new Ref.ProdiTIDataSet1TableAdapters.NilaiTableAdapter();
             this.nilaiBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.nilaiBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.nilaiBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
-            this.nilaiBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
-            this.nilaiBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // bindingNavigator1
             // 
             this.bindingNavigator1.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.bindingNavigator1.BindingSource = this.nilaiBindingSource;
             this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
             this.bindingNavigator1.DeleteItem = this.bindingNavigatorDeleteItem;
             this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -100,38 +101,6 @@
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
-            // 
             // bindingNavigatorAddNewItem
             // 
             this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -140,6 +109,13 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
             // bindingNavigatorDeleteItem
             // 
@@ -168,6 +144,26 @@
             this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Position";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            // 
             // bindingNavigatorMoveNextItem
             // 
             this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -185,6 +181,11 @@
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // label1
             // 
@@ -240,51 +241,71 @@
             this.textBox1.Size = new System.Drawing.Size(176, 22);
             this.textBox1.TabIndex = 6;
             // 
-            // textBox2
+            // nilaiBindingSource
             // 
-            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource5, "IDPeriode", true));
-            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource5, "IDPeriode", true));
-            this.textBox2.Location = new System.Drawing.Point(149, 244);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(176, 22);
-            this.textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource4, "Nilai", true));
-            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource4, "Nilai", true));
-            this.textBox3.Location = new System.Drawing.Point(149, 199);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(176, 22);
-            this.textBox3.TabIndex = 8;
-            // 
-            // textBox4
-            // 
-            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource3, "KodeMK", true));
-            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource3, "KodeMK", true));
-            this.textBox4.Location = new System.Drawing.Point(149, 156);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(176, 22);
-            this.textBox4.TabIndex = 9;
-            // 
-            // textBox5
-            // 
-            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource2, "NIM", true));
-            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource2, "NIM", true));
-            this.textBox5.Location = new System.Drawing.Point(149, 116);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(176, 22);
-            this.textBox5.TabIndex = 10;
+            this.nilaiBindingSource.DataMember = "Nilai";
+            this.nilaiBindingSource.DataSource = this.prodiTIDataSet1;
             // 
             // prodiTIDataSet1
             // 
             this.prodiTIDataSet1.DataSetName = "ProdiTIDataSet1";
             this.prodiTIDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // nilaiBindingSource
+            // textBox2
             // 
-            this.nilaiBindingSource.DataMember = "Nilai";
-            this.nilaiBindingSource.DataSource = this.prodiTIDataSet1;
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource, "IDPeriode", true));
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource, "IDPeriode", true));
+            this.textBox2.Location = new System.Drawing.Point(149, 244);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(176, 22);
+            this.textBox2.TabIndex = 7;
+            // 
+            // nilaiBindingSource5
+            // 
+            this.nilaiBindingSource5.DataMember = "Nilai";
+            this.nilaiBindingSource5.DataSource = this.prodiTIDataSet1;
+            // 
+            // textBox3
+            // 
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource, "Nilai", true));
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource, "Nilai", true));
+            this.textBox3.Location = new System.Drawing.Point(149, 199);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(176, 22);
+            this.textBox3.TabIndex = 8;
+            // 
+            // nilaiBindingSource4
+            // 
+            this.nilaiBindingSource4.DataMember = "Nilai";
+            this.nilaiBindingSource4.DataSource = this.prodiTIDataSet1;
+            // 
+            // textBox4
+            // 
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource, "KodeMK", true));
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource, "KodeMK", true));
+            this.textBox4.Location = new System.Drawing.Point(149, 156);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(176, 22);
+            this.textBox4.TabIndex = 9;
+            // 
+            // nilaiBindingSource3
+            // 
+            this.nilaiBindingSource3.DataMember = "Nilai";
+            this.nilaiBindingSource3.DataSource = this.prodiTIDataSet1;
+            // 
+            // textBox5
+            // 
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.nilaiBindingSource, "NIM", true));
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nilaiBindingSource, "NIM", true));
+            this.textBox5.Location = new System.Drawing.Point(149, 116);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(176, 22);
+            this.textBox5.TabIndex = 10;
+            // 
+            // nilaiBindingSource2
+            // 
+            this.nilaiBindingSource2.DataMember = "Nilai";
+            this.nilaiBindingSource2.DataSource = this.prodiTIDataSet1;
             // 
             // nilaiTableAdapter
             // 
@@ -294,26 +315,6 @@
             // 
             this.nilaiBindingSource1.DataMember = "Nilai";
             this.nilaiBindingSource1.DataSource = this.prodiTIDataSet1;
-            // 
-            // nilaiBindingSource2
-            // 
-            this.nilaiBindingSource2.DataMember = "Nilai";
-            this.nilaiBindingSource2.DataSource = this.prodiTIDataSet1;
-            // 
-            // nilaiBindingSource3
-            // 
-            this.nilaiBindingSource3.DataMember = "Nilai";
-            this.nilaiBindingSource3.DataSource = this.prodiTIDataSet1;
-            // 
-            // nilaiBindingSource4
-            // 
-            this.nilaiBindingSource4.DataMember = "Nilai";
-            this.nilaiBindingSource4.DataSource = this.prodiTIDataSet1;
-            // 
-            // nilaiBindingSource5
-            // 
-            this.nilaiBindingSource5.DataMember = "Nilai";
-            this.nilaiBindingSource5.DataSource = this.prodiTIDataSet1;
             // 
             // Form3
             // 
@@ -337,13 +338,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nilaiBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

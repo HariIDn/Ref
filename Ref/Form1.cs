@@ -17,14 +17,11 @@ namespace Ref
             InitializeComponent();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -40,6 +37,13 @@ namespace Ref
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
         }
     }
 }
